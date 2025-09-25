@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/alunos")
 @Tag(name = "Alunos", description = "Endpoint para consulta de alunos")
 public class AlunoController {
-
+// boa noite datena
     @GetMapping()
     @Operation(summary = "Lista todos os alunos", description = "Retorna uma lista fixa de nomes de alunos.")
     public List<String> getAlunos() {
